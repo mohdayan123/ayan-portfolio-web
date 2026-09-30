@@ -1,6 +1,6 @@
 # Mohd Ayan — DevOps & AWS Cloud Portfolio (Flask + Docker + Three.js)
 
-A 3D interactive portfolio built for **Mohd Ayan**, Fresher DevOps Engineer & AWS Cloud Engineer.
+A 3D interactive portfolio built of **Mohd Ayan**.
 
 ## Project Structure
 ```
