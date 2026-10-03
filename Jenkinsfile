@@ -7,6 +7,11 @@ pipeline{
                 git url: "https://github.com/mohdayan123/ayan-portfolio-web.git/", branch: "main" 
             }
         }
+        stage("Trivy File System Scan"){
+            steps{
+                sh "trivy fs ."
+            }
+        }
         stage("Test"){
             steps{
                 echo "Testing Completed"
